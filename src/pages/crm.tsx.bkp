@@ -1,5 +1,5 @@
 'use client'
-import { Crm } from '../components/crm';
+import { Crm } from '../components/crm.tsx.bkp';
 
 export default function Clients() {
   return (
