@@ -534,7 +534,9 @@ function BriefcaseIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 
-function CalendarCheckIcon(props) {
+interface CalendarCheckIconProps extends React.SVGProps<SVGSVGElement> {}
+
+function CalendarCheckIcon(props: CalendarCheckIconProps) {
   return (
     <svg
       {...props}
@@ -558,7 +560,7 @@ function CalendarCheckIcon(props) {
 }
 
 
-function CircleCheckIcon(props) {
+function CircleCheckIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -579,7 +581,9 @@ function CircleCheckIcon(props) {
 }
 
 
-function ClockIcon(props) {
+interface ClockIconProps extends React.SVGProps<SVGSVGElement> {}
+
+function ClockIcon(props: ClockIconProps) {
   return (
     <svg
       {...props}
@@ -600,7 +604,7 @@ function ClockIcon(props) {
 }
 
 
-function FileTextIcon(props) {
+function FileTextIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -624,7 +628,7 @@ function FileTextIcon(props) {
 }
 
 
-function LayoutDashboardIcon(props) {
+function LayoutDashboardIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -647,7 +651,7 @@ function LayoutDashboardIcon(props) {
 }
 
 
-function LeafIcon(props) {
+function LeafIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -668,7 +672,7 @@ function LeafIcon(props) {
 }
 
 
-function LineChart(props) {
+function LineChart(props: React.PropsWithChildren<any>) {
   return (
     <div {...props}>
       <ResponsiveLine
@@ -742,7 +746,7 @@ function LineChart(props) {
 }
 
 
-function LogOutIcon(props) {
+function LogOutIcon(props: any) {
   return (
     <svg
       {...props}
@@ -764,7 +768,7 @@ function LogOutIcon(props) {
 }
 
 
-function MoveHorizontalIcon(props) {
+function MoveHorizontalIcon(props: any) {
   return (
     <svg
       {...props}
@@ -786,7 +790,7 @@ function MoveHorizontalIcon(props) {
 }
 
 
-function SearchIcon(props) {
+function SearchIcon(props: any) {
   return (
     <svg
       {...props}
@@ -807,7 +811,7 @@ function SearchIcon(props) {
 }
 
 
-function SettingsIcon(props) {
+function SettingsIcon(props: any) {
   return (
     <svg
       {...props}
@@ -828,7 +832,7 @@ function SettingsIcon(props) {
 }
 
 
-function SignalIcon(props) {
+function SignalIcon(props: any) {
   return (
     <svg
       {...props}
@@ -852,7 +856,7 @@ function SignalIcon(props) {
 }
 
 
-function StackedbarChart(props) {
+function StackedbarChart(props: any) {
   return (
     <div {...props}>
       <ResponsiveBar
@@ -906,7 +910,7 @@ function StackedbarChart(props) {
 }
 
 
-function UserIcon(props) {
+function UserIcon(props: any) {
   return (
     <svg
       {...props}
@@ -927,7 +931,7 @@ function UserIcon(props) {
 }
 
 
-function UsersIcon(props) {
+function UsersIcon(props: any) {
   return (
     <svg
       {...props}
