@@ -145,7 +145,7 @@ export function Crm() {
                       </div>
                       <div className="space-y-2">
                         <Label htmlFor="industry">Industry</Label>
-                        <Select id="industry">
+                        <Select>
                           <option value="">All Industries</option>
                           <option value="technology">Technology</option>
                           <option value="finance">Finance</option>
