@@ -292,7 +292,7 @@ export function Dashboard() {
                     <TableRow>
                       <TableCell className="font-medium">Sustainability Practices</TableCell>
                       <TableCell>
-                        <Badge variant="green">Completed</Badge>
+                        <Badge>Completed</Badge>
                       </TableCell>
                       <TableCell>92</TableCell>
                       <TableCell className="text-right">
