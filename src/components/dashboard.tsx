@@ -314,7 +314,7 @@ export function Dashboard() {
                     <TableRow>
                       <TableCell className="font-medium">Energy Efficiency</TableCell>
                       <TableCell>
-                        <Badge variant="orange">Pending</Badge>
+                        <Badge>Pending</Badge>
                       </TableCell>
                       <TableCell>32</TableCell>
                       <TableCell className="text-right">
@@ -336,7 +336,7 @@ export function Dashboard() {
                     <TableRow>
                       <TableCell className="font-medium">Waste Management</TableCell>
                       <TableCell>
-                        <Badge variant="green">Completed</Badge>
+                        <Badge>Completed</Badge>
                       </TableCell>
                       <TableCell>84</TableCell>
                       <TableCell className="text-right">
