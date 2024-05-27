@@ -53,7 +53,7 @@ export function Dashboard() {
           </form>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button className="rounded-full" size="icon" variant="ghost">
+              <Button className="rounded-full" size="icon">
                 <BellIcon className="h-6 w-6" />
                 <span className="sr-only">Notifications</span>
               </Button>
@@ -98,7 +98,7 @@ export function Dashboard() {
           </DropdownMenu>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button className="rounded-full" size="icon" variant="ghost">
+              <Button className="rounded-full" size="icon">
                 <img
                   alt="Avatar"
                   className="rounded-full"
@@ -298,7 +298,7 @@ export function Dashboard() {
                       <TableCell className="text-right">
                         <DropdownMenu>
                           <DropdownMenuTrigger asChild>
-                            <Button size="icon" variant="ghost">
+                            <Button size="icon">
                               <MoveHorizontalIcon className="h-4 w-4" />
                               <span className="sr-only">Actions</span>
                             </Button>
@@ -320,7 +320,7 @@ export function Dashboard() {
                       <TableCell className="text-right">
                         <DropdownMenu>
                           <DropdownMenuTrigger asChild>
-                            <Button size="icon" variant="ghost">
+                            <Button size="icon">
                               <MoveHorizontalIcon className="h-4 w-4" />
                               <span className="sr-only">Actions</span>
                             </Button>
@@ -342,7 +342,7 @@ export function Dashboard() {
                       <TableCell className="text-right">
                         <DropdownMenu>
                           <DropdownMenuTrigger asChild>
-                            <Button size="icon" variant="ghost">
+                            <Button size="icon">
                               <MoveHorizontalIcon className="h-4 w-4" />
                               <span className="sr-only">Actions</span>
                             </Button>
@@ -370,7 +370,7 @@ export function Dashboard() {
                       <p className="font-medium">ACME Co. — Sustainability Strategy Review</p>
                       <p className="text-sm text-gray-500 dark:text-gray-400">May 26, 2023 - 2:00 PM</p>
                     </div>
-                    <Button size="sm" variant="outline">
+                    <Button size="sm">
                       Join
                     </Button>
                   </div>
@@ -379,7 +379,7 @@ export function Dashboard() {
                       <p className="font-medium">Fun Co. — Waste Reduction Workshop</p>
                       <p className="text-sm text-gray-500 dark:text-gray-400">June 10, 2023 - 10:00 AM</p>
                     </div>
-                    <Button size="sm" variant="outline">
+                    <Button size="sm">
                       Join
                     </Button>
                   </div>
@@ -388,7 +388,7 @@ export function Dashboard() {
                       <p className="font-medium">Notfun Co. — Energy Efficiency Roundtable</p>
                       <p className="text-sm text-gray-500 dark:text-gray-400">July 1, 2023 - 3:30 PM</p>
                     </div>
-                    <Button size="sm" variant="outline">
+                    <Button size="sm">
                       Join
                     </Button>
                   </div>
@@ -399,7 +399,7 @@ export function Dashboard() {
           <section className="bg-white dark:bg-gray-900 rounded-lg shadow p-6 md:p-8 grid gap-6">
             <div className="flex items-center justify-between">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-50">Report Generation</h2>
-              <Button variant="primary">Generate Report</Button>
+              <Button>Generate Report</Button>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <Card>
@@ -413,7 +413,7 @@ export function Dashboard() {
                   </p>
                 </CardContent>
                 <CardFooter>
-                  <Button size="sm" variant="outline">
+                  <Button size="sm">
                     View Report
                   </Button>
                 </CardFooter>
@@ -429,7 +429,7 @@ export function Dashboard() {
                   </p>
                 </CardContent>
                 <CardFooter>
-                  <Button size="sm" variant="outline">
+                  <Button size="sm">
                     View Report
                   </Button>
                 </CardFooter>
@@ -445,7 +445,7 @@ export function Dashboard() {
                   </p>
                 </CardContent>
                 <CardFooter>
-                  <Button size="sm" variant="outline">
+                  <Button size="sm">
                     View Report
                   </Button>
                 </CardFooter>
@@ -469,7 +469,7 @@ export function Dashboard() {
                       <p className="text-gray-500 dark:text-gray-400">
                         Integrate with your calendar to schedule meetings with your clients.
                       </p>
-                      <Button className="mt-4" size="sm" variant="outline">
+                      <Button className="mt-4" size="sm">
                         Connect
                       </Button>
                     </CardContent>
@@ -484,7 +484,7 @@ export function Dashboard() {
                         Seamlessly communicate with other experts and stakeholders through our integrated messaging
                         platform.
                       </p>
-                      <Button className="mt-4" size="sm" variant="outline">
+                      <Button className="mt-4" size="sm">
                         Connect
                       </Button>
                     </CardContent>
@@ -498,7 +498,7 @@ export function Dashboard() {
                       <p className="text-gray-500 dark:text-gray-400">
                         Stay up-to-date with the latest trends, best practices, and expert insights to drive positive change with your clients.
                       </p>
-                      <Button className="mt-4" size="sm" variant="outline">
+                      <Button className="mt-4" size="sm">
                         Connect
                       </Button>
                     </CardContent>
